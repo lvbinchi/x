@@ -68,7 +68,7 @@ const App = () => {
               description:
                 status === 'error' &&
                 exampleRequest.baseURL === BASE_URL + PATH &&
-                'Please replace the BASE_URL, PATH, MODEL, API_KEY with your own values.',
+                'Please',
               content: (
                 <Descriptions column={1}>
                   <Descriptions.Item label="Status">{status || '-'}</Descriptions.Item>
